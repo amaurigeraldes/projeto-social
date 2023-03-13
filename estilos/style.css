@@ -44,3 +44,19 @@ main {
     /* Cor de Fundo para Ajudar na Centralização:  */
     /* background-color: blue; */
 }
+
+    /* Seletor id="tela" */
+    #tela {
+    /* Ajustando a Imagem Home do iframe para cobrir
+    a Tela do iPhone */
+    position: relative;
+    /* 1º Passo: Ajustar o Topo e à Esquerda */
+    top: 80px;
+    left: 22px;
+    /* 2º Passo: Ajustar a Largura e a Altura */
+    width: 269px;
+    height: 471px;
+    }
+    
+
+
