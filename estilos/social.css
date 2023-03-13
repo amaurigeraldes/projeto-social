@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Para esconder a Barra de Rolagem */
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/* Configurações da Imagem para ter a Largura Total do iPhone pois será carregada no iframe */
+img {
+    width: 100vw;
+}
+
+/* Configurações do Link e do Texto  */
+a {
+    /* Para mostrar o ACESSE abaixo da Imagem */
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/* Para destacar a cor da barra ACESSE */
+a:hover {
+    background-color: red;
+}

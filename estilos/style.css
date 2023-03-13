@@ -46,7 +46,7 @@ main {
 }
 
     /* Seletor section id="tela" para a Tela do iPhone*/
-    iframe#tela {
+iframe#tela {
     /* Ajustando a Imagem Home do iframe para cobrir
     a Tela do iPhone */
     position: relative;
@@ -54,30 +54,30 @@ main {
     top: 80px;
     left: 22px;
     /* 2º Passo: Ajustar a Largura e a Altura */
-    width: 269px;
+    width: 267px;
     height: 471px;
-    }
+}
 
     /* Seletor section id="redes-sociais" para os Botões Laterais */
-    section#redes-sociais img {
-        width: 50px;
-        /* Não precisa, pois quando a largura é reduzida, 
-        a altura também é na mesma proporção */
-        height: 50px; 
-        /* Para dar um espaçamento entre os Botões  */
-        margin: 10px;
-        /* Para os Botões ficarem arredondados */
-        border-radius: 50%;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
-        /* 
-        Para a borda dos Botões não fazer parte da Caixa */
-        box-sizing: border-box;
-    }
+section#redes-sociais img {
+    width: 50px;
+    /* Não precisa, pois quando a largura é reduzida, 
+    a altura também é na mesma proporção */
+    /* height: 50px;  */
+    /* Para dar um espaçamento entre os Botões  */
+    margin: 10px;
+    /* Para os Botões ficarem arredondados */
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    /* 
+    Para a borda dos Botões não fazer parte da Caixa */
+    box-sizing: border-box;
+}
 
     /* Para posicionar os Botões do Lado Direito da tela  */
-    section#redes-sociais {
-        text-align: right;
-    }
+section#redes-sociais {
+    text-align: right;
+}
 
     /* Para criar uma borda para os Botões e dar uma
     leve movimentação quando passar o pointer do mouse
